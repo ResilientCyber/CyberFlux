@@ -1,0 +1,19 @@
+<head>
+    <title>Cyber_Crime_Chronicles</title>
+    <meta name="description" content="Cyber_Crime in the Shadows. Each story is a unique informaiton about deception, redemption, and intrigue.">
+    <meta name="keywords" content="Hacking, Cybersecurity, Digital Forensics">
+</head>
+
+
+
+<html>
+<body>
+    <h1>API Strategy</h1>
+    {% for story in stories %}
+        <div>
+            <h2>{{ story.title }}</h2>
+            <p>{{ story.content }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

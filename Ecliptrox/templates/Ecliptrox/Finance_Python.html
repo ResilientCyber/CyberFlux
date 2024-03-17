@@ -1,0 +1,19 @@
+<head>
+    <title>Finance_Python_Sagas</title>
+    <meta name="description" content="Finance_Python Betrayal and Deception. Each story is a unique informaiton about programming, finance, and trading.">
+    <meta name="keywords" content="Finance, Stock Market, Quantitative Analysis ">
+</head>
+
+
+
+<html>
+<body>
+    <h1>API Strategy</h1>
+    {% for story in stories %}
+        <div>
+            <h2>{{ story.title }}</h2>
+            <p>{{ story.content }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

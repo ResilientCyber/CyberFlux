@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Add Your Story</title>
+</head>
+<body>
+    <h1>Tell Us Your Story</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Send Your Story</button>
+    </form>
+</body>
+</html>

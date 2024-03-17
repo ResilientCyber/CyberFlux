@@ -1,0 +1,11 @@
+<html>
+<body>
+    <h1>Artificial Inteligence using Python Stories </h1>
+    {% for story in stories %}
+        <div>
+            <h2>{{ story.title }}</h2>
+            <p>{{ story.content }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

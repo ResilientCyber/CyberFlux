@@ -1,0 +1,19 @@
+<head>
+    <title>API Information</title>
+    <meta name="description" content="API Stock Trading Fundamentals. Each story is a unique informaiton about Algorithmic Trading.">
+    <meta name="keywords" content="API stories, API Trading Fundamentals, API Innovation">
+</head>
+
+
+
+<html>
+<body>
+    <h1>API Strategy</h1>
+    {% for story in stories %}
+        <div>
+            <h2>{{ story.title }}</h2>
+            <p>{{ story.content }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
